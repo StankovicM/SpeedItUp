@@ -1,5 +1,12 @@
 # depslib dependency file v1.0
-1556737665 source:g:\source code\san andreas\speeditup\main.cpp
+1556916013 source:g:\source code\san andreas\speeditup\main.cpp
+	<stdio.h>
+	<tchar.h>
+	<iostream>
+	<thread>
+	<windows.h>
+
+1556914217 source:g:\source code\san andreas\speeditup\gravity.cpp
 	<stdio.h>
 	<tchar.h>
 	<iostream>

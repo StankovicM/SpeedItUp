@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 1
 
 
    1              		.file	"main.cpp"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
   49 002a C20400   		ret	$4
   50 002d 909090   		.section	.text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_E
   51              		.linkonce discard
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 2
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 2
 
 
   52              		.align 2
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  102      90909090 
  102      9090
  103              		.linkonce discard
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 3
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 3
 
 
  104              		.align 2
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  153      00
  154 0023 83C414   		addl	$20, %esp
  155 0026 5B       		popl	%ebx
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 4
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 4
 
 
  156 0027 5E       		popl	%esi
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  197 0012 83EC24   		subl	$36, %esp
  198 0015 803D0000 		cmpb	$0, __ZL14thread_running
  198      000000
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 5
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 5
 
 
  199 001c 8B1D0000 		movl	__imp___iob, %ebx
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  231      000000
  232 00c1 E8000000 		call	_printf
  232      00
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 6
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 6
 
 
  233 00c6 EB1B     		jmp	L43
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  279 0030 8B03     		movl	(%ebx), %eax
  280 0032 89D9     		movl	%ebx, %ecx
  281 0034 8B400C   		movl	12(%eax), %eax
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 7
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 7
 
 
  282 0037 83C408   		addl	$8, %esp
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  324      000000
  325 008e E8000000 		call	__ZNKSt9type_infoeqERKS_
  325      00
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 8
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 8
 
 
  326 0093 8B4DAC   		movl	-84(%ebp), %ecx
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  372 011c E8000000 		call	__ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
  372      00
  373              	L67:
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 9
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 9
 
 
  374 0121 8B45B0   		movl	-80(%ebp), %eax
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  407      7320454E 
  407      54455220 
  407      746F2065 
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 10
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 10
 
 
  407      7869742E 
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  429      206D6169 
  429      6E206C6F 
  430              		.ascii "Starting the main loop.\12\0"
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 11
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 11
 
 
  431              		.align 4
@@ -625,7 +625,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  447      000000
  448 0022 8945D4   		movl	$LLSDA2611, -48(%ebp)
  449 0025 8D45B4   		movl	%eax, -44(%ebp)
- 450 0028 C745D838 		leal	-76(%ebp), %eax
+ 450 0028 C745D83D 		leal	-76(%ebp), %eax
  450      040000
  451 002f 8965DC   		movl	$L96, -40(%ebp)
  452 0032 890424   		movl	%esp, -36(%ebp)
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  468      0000
  469 007d A1040000 		je	L79
  469      00
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 12
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 12
 
 
  470 0082 83C001   		movl	__ZL4init, %eax
@@ -680,7 +680,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  480      00
  481 00af 83EC08   		movl	__ZL3pid, %eax
  482 00b2 85C0     		subl	$8, %esp
- 483 00b4 0F841403 		testl	%eax, %eax
+ 483 00b4 0F841903 		testl	%eax, %eax
  483      0000
  484 00ba 89442408 		je	L103
  485 00be C7442404 		movl	%eax, 8(%esp)
@@ -695,7 +695,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  490 00dc 85C0     		subl	$12, %esp
  491 00de A3080000 		testl	%eax, %eax
  491      00
- 492 00e3 0F842403 		movl	%eax, __ZL7pHandle
+ 492 00e3 0F842903 		movl	%eax, __ZL7pHandle
  492      0000
  493 00e9 A1100000 		je	L104
  493      00
@@ -716,9 +716,9 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  502 011c 890424   		movl	$__ZSt4cout, %ecx
  503 011f E8000000 		movl	%eax, (%esp)
  503      00
- 504 0124 52       		call	__ZNSo9_M_insertIPKvEERSoT_
- 505 0125 890424   		pushl	%edx
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 13
+ 504 0124 51       		call	__ZNSo9_M_insertIPKvEERSoT_
+ 505 0125 890424   		pushl	%ecx
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 13
 
 
  506 0128 E8000000 		movl	%eax, (%esp)
@@ -740,8 +740,8 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  515 0159 890424   		movl	$__ZSt4cout, %ecx
  516 015c E8000000 		movl	%eax, (%esp)
  516      00
- 517 0161 51       		call	__ZNSo9_M_insertImEERSoT_
- 518 0162 890424   		pushl	%ecx
+ 517 0161 52       		call	__ZNSo9_M_insertImEERSoT_
+ 518 0162 890424   		pushl	%edx
  519 0165 E8000000 		movl	%eax, (%esp)
  519      00
  520 016a A1080000 		call	__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
@@ -761,8 +761,8 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  528 0196 890424   		movl	$__ZSt4cout, %ecx
  529 0199 E8000000 		movl	%eax, (%esp)
  529      00
- 530 019e 52       		call	__ZNSo9_M_insertIPKvEERSoT_
- 531 019f 890424   		pushl	%edx
+ 530 019e 51       		call	__ZNSo9_M_insertIPKvEERSoT_
+ 531 019f 890424   		pushl	%ecx
  532 01a2 E8000000 		movl	%eax, (%esp)
  532      00
  533 01a7 C70424BD 		call	__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  538              		movl	$0x3f800000, -20(%ebp)
  539 01c6 833D0400 	L89:
  539      000001
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 14
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 14
 
 
  540 01cd 0F85C900 		cmpl	$1, __ZL4init
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  579 0259 C70424B8 	L79:
  579      000000
  580 0260 E8000000 		movl	$LC6, (%esp)
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 15
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 15
 
 
  580      00
@@ -896,9 +896,9 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  609 02f7 E8000000 		movl	$1, -72(%ebp)
  609      00
  610 02fc 85C0     		call	_GetLastError@0
- 611 02fe 0F859A00 		testl	%eax, %eax
+ 611 02fe 0F859B00 		testl	%eax, %eax
  611      0000
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 16
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 16
 
 
  612 0304 8D45F0   		jne	L90
@@ -947,347 +947,348 @@ GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 1
  640 0389 E8000000 		movl	$1, -72(%ebp)
  640      00
  641              		call	_Sleep@4
- 642 038e A1000000 	L101:
- 642      00
- 643 0393 83EC04   		movl	__ZL7running, %eax
- 644 0396 85C0     		subl	$4, %esp
- 645 0398 0F8552FF 		testl	%eax, %eax
+ 642 038e 8B150000 	L101:
+ 642      0000
+ 643 0394 83EC04   		movl	__ZL7running, %edx
+ 644 0397 85D2     		subl	$4, %esp
+ 645 0399 0F8551FF 		testl	%edx, %edx
  645      FFFF
  646              		jne	L107
- 647 039e C7042490 	L90:
+ 647 039f C7042490 	L90:
  647      020000
- 648 03a5 E8000000 		movl	$LC20, (%esp)
+ 648 03a6 E8000000 		movl	$LC20, (%esp)
  648      00
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 17
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 17
 
 
- 649 03aa C745B801 		call	_printf
- 649      000000
- 650 03b1 B9000000 		movl	$1, -72(%ebp)
- 650      00
- 651 03b6 E8000000 		movl	$__ZSt3cin, %ecx
- 651      00
- 652 03bb C7042400 		call	__ZNSi3getEv
+ 649 03ab A1080000 		call	_printf
+ 649      00
+ 650 03b0 C6050000 		movl	__ZL7pHandle, %eax
+ 650      000000
+ 651 03b7 890424   		movb	$0, __ZL14thread_running
+ 652 03ba C745B801 		movl	%eax, (%esp)
  652      000000
- 653 03c2 C6050000 		movl	$0, (%esp)
- 653      000000
- 654 03c9 E8000000 		movb	$0, __ZL14thread_running
- 654      00
- 655              		call	_exit
- 656 03ce C704241C 	L103:
- 656      010000
- 657 03d5 E8000000 		movl	$LC8, (%esp)
- 657      00
- 658 03da C704244C 		call	_printf
+ 653 03c1 E8000000 		movl	$1, -72(%ebp)
+ 653      00
+ 654 03c6 50       		call	_CloseHandle@4
+ 655 03c7 C7042400 		pushl	%eax
+ 655      000000
+ 656 03ce E8000000 		movl	$0, (%esp)
+ 656      00
+ 657              		call	_exit
+ 658 03d3 C704241C 	L103:
  658      010000
- 659 03e1 E8000000 		movl	$LC9, (%esp)
+ 659 03da E8000000 		movl	$LC8, (%esp)
  659      00
- 660 03e6 B9000000 		call	_printf
- 660      00
- 661 03eb E8000000 		movl	$__ZSt3cin, %ecx
+ 660 03df C704244C 		call	_printf
+ 660      010000
+ 661 03e6 E8000000 		movl	$LC9, (%esp)
  661      00
- 662 03f0 C745B0FF 		call	__ZNSi3getEv
- 662      FFFFFF
- 663              		movl	$-1, -80(%ebp)
- 664 03f7 8D45B4   	L99:
- 665 03fa 890424   		leal	-76(%ebp), %eax
- 666 03fd E8000000 		movl	%eax, (%esp)
- 666      00
- 667 0402 8B4DFC   		call	__Unwind_SjLj_Unregister
- 668 0405 8B45B0   		movl	-4(%ebp), %ecx
- 669 0408 C9       		movl	-80(%ebp), %eax
- 670 0409 8D61FC   		leave
- 671 040c C3       		leal	-4(%ecx), %esp
- 672              		ret
- 673 040d C7042464 	L104:
- 673      010000
- 674 0414 E8000000 		movl	$LC10, (%esp)
- 674      00
- 675 0419 C704244C 		call	_printf
+ 662 03eb B9000000 		call	_printf
+ 662      00
+ 663 03f0 E8000000 		movl	$__ZSt3cin, %ecx
+ 663      00
+ 664 03f5 C745B0FF 		call	__ZNSi3getEv
+ 664      FFFFFF
+ 665              		movl	$-1, -80(%ebp)
+ 666 03fc 8D45B4   	L99:
+ 667 03ff 890424   		leal	-76(%ebp), %eax
+ 668 0402 E8000000 		movl	%eax, (%esp)
+ 668      00
+ 669 0407 8B4DFC   		call	__Unwind_SjLj_Unregister
+ 670 040a 8B45B0   		movl	-4(%ebp), %ecx
+ 671 040d C9       		movl	-80(%ebp), %eax
+ 672 040e 8D61FC   		leave
+ 673 0411 C3       		leal	-4(%ecx), %esp
+ 674              		ret
+ 675 0412 C7042464 	L104:
  675      010000
- 676 0420 E8000000 		movl	$LC9, (%esp)
+ 676 0419 E8000000 		movl	$LC10, (%esp)
  676      00
- 677 0425 B9000000 		call	_printf
- 677      00
- 678 042a E8000000 		movl	$__ZSt3cin, %ecx
+ 677 041e C704244C 		call	_printf
+ 677      010000
+ 678 0425 E8000000 		movl	$LC9, (%esp)
  678      00
- 679 042f C745B0FE 		call	__ZNSi3getEv
- 679      FFFFFF
- 680 0436 EBBF     		movl	$-2, -80(%ebp)
- 681              		jmp	L99
- 682 0438 83C508   	L96:
- 683 043b 8B45BC   		addl	$8, %ebp
- 684 043e 8945B0   		movl	-68(%ebp), %eax
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 18
+ 679 042a B9000000 		call	_printf
+ 679      00
+ 680 042f E8000000 		movl	$__ZSt3cin, %ecx
+ 680      00
+ 681 0434 C745B0FE 		call	__ZNSi3getEv
+ 681      FFFFFF
+ 682 043b EBBF     		movl	$-2, -80(%ebp)
+ 683              		jmp	L99
+ 684 043d 83C508   	L96:
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 18
 
 
- 685 0441 C7442404 		movl	%eax, -80(%ebp)
- 685      00000000 
- 686 0449 8B45F4   		movl	$0, 4(%esp)
- 687 044c 890424   		movl	-12(%ebp), %eax
- 688 044f C745B800 		movl	%eax, (%esp)
- 688      000000
- 689 0456 E8000000 		movl	$0, -72(%ebp)
- 689      00
- 690 045b 85C0     		call	_pthread_equal
- 691 045d 7412     		testl	%eax, %eax
- 692 045f 8B45B0   		je	L108
- 693 0462 890424   		movl	-80(%ebp), %eax
- 694 0465 C745B8FF 		movl	%eax, (%esp)
- 694      FFFFFF
- 695 046c E8000000 		movl	$-1, -72(%ebp)
- 695      00
- 696              		call	__Unwind_SjLj_Resume
- 697 0471 E8000000 	L108:
+ 685 0440 8B45BC   		addl	$8, %ebp
+ 686 0443 8945B0   		movl	-68(%ebp), %eax
+ 687 0446 C7442404 		movl	%eax, -80(%ebp)
+ 687      00000000 
+ 688 044e 8B45F4   		movl	$0, 4(%esp)
+ 689 0451 890424   		movl	-12(%ebp), %eax
+ 690 0454 C745B800 		movl	%eax, (%esp)
+ 690      000000
+ 691 045b E8000000 		movl	$0, -72(%ebp)
+ 691      00
+ 692 0460 85C0     		call	_pthread_equal
+ 693 0462 7412     		testl	%eax, %eax
+ 694 0464 8B45B0   		je	L108
+ 695 0467 890424   		movl	-80(%ebp), %eax
+ 696 046a C745B8FF 		movl	%eax, (%esp)
+ 696      FFFFFF
+ 697 0471 E8000000 		movl	$-1, -72(%ebp)
  697      00
- 698              		call	__ZSt9terminatev
- 699              		.section	.gcc_except_table,"w"
- 700 0006 FF       	LLSDA2611:
- 701 0007 FF       		.byte	0xff
- 702 0008 01       		.byte	0xff
- 703 0009 02       		.byte	0x1
- 704              		.uleb128 LLSDACSE2611-LLSDACSB2611
- 705 000a 00       	LLSDACSB2611:
- 706 000b 00       		.uleb128 0
- 707              		.uleb128 0
- 708              	LLSDACSE2611:
- 709 0476 8D76008D 		.section	.text.startup,"x"
- 709      BC270000 
- 709      0000
- 710              		.p2align 4,,15
- 712 0480 83EC1C   	__GLOBAL__sub_I__Z9get_inputv:
- 713 0483 B9140000 		subl	$28, %esp
- 713      00
- 714 0488 E8000000 		movl	$__ZStL8__ioinit, %ecx
- 714      00
- 715 048d C7042400 		call	__ZNSt8ios_base4InitC1Ev
- 715      000000
- 716 0494 E8000000 		movl	$___tcf_0, (%esp)
+ 698              		call	__Unwind_SjLj_Resume
+ 699 0476 E8000000 	L108:
+ 699      00
+ 700              		call	__ZSt9terminatev
+ 701              		.section	.gcc_except_table,"w"
+ 702 0006 FF       	LLSDA2611:
+ 703 0007 FF       		.byte	0xff
+ 704 0008 01       		.byte	0xff
+ 705 0009 02       		.byte	0x1
+ 706              		.uleb128 LLSDACSE2611-LLSDACSB2611
+ 707 000a 00       	LLSDACSB2611:
+ 708 000b 00       		.uleb128 0
+ 709              		.uleb128 0
+ 710              	LLSDACSE2611:
+ 711 047b 908D7426 		.section	.text.startup,"x"
+ 711      00
+ 712              		.p2align 4,,15
+ 714 0480 83EC1C   	__GLOBAL__sub_I__Z9get_inputv:
+ 715 0483 B9140000 		subl	$28, %esp
+ 715      00
+ 716 0488 E8000000 		movl	$__ZStL8__ioinit, %ecx
  716      00
- 717 0499 83C41C   		call	_atexit
- 718 049c C3       		addl	$28, %esp
- 719 049d 909090   		ret
- 720              		.section	.ctors,"w"
- 721 0000 80040000 		.align 4
- 722              		.long	__GLOBAL__sub_I__Z9get_inputv
- 723              		.globl	__ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
- 724              		.section	.rdata$_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE,"dr"
- 725              		.linkonce same_size
- 726              		.align 32
- 727 0000 53743131 	__ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE:
- 727      5F4D7574 
- 727      65785F62 
- 727      61736549 
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 19
+ 717 048d C7042400 		call	__ZNSt8ios_base4InitC1Ev
+ 717      000000
+ 718 0494 E8000000 		movl	$___tcf_0, (%esp)
+ 718      00
+ 719 0499 83C41C   		call	_atexit
+ 720 049c C3       		addl	$28, %esp
+ 721 049d 909090   		ret
+ 722              		.section	.ctors,"w"
+ 723 0000 80040000 		.align 4
+ 724              		.long	__GLOBAL__sub_I__Z9get_inputv
+ 725              		.globl	__ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+ 726              		.section	.rdata$_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE,"dr"
+ 727              		.linkonce same_size
+ 728              		.align 32
+ 729 0000 53743131 	__ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE:
+ 729      5F4D7574 
+ 729      65785F62 
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 19
 
 
- 727      4C4E395F 
- 728              		.ascii "St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE\0"
- 729 002f 00000000 		.globl	__ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
- 729      00000000 
- 729      00000000 
- 729      00000000 
- 729      00
- 730              		.section	.rdata$_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE,"dr"
- 731              		.linkonce same_size
- 732              		.align 4
- 733 0000 08000000 	__ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE:
- 734 0004 00000000 		.long	__ZTVN10__cxxabiv117__class_type_infoE+8
- 735              		.long	__ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
- 736              		.globl	__ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
- 737              		.section	.rdata$_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE,"dr"
- 738              		.linkonce same_size
- 739              		.align 32
- 740 0000 53743136 	__ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE:
- 740      5F53705F 
- 740      636F756E 
- 740      7465645F 
- 740      62617365 
- 741              		.ascii "St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE\0"
- 742 0034 00000000 		.globl	__ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
- 742      00000000 
- 742      00000000 
- 743              		.section	.rdata$_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE,"dr"
- 744              		.linkonce same_size
- 745              		.align 4
- 746 0000 08000000 	__ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE:
- 747 0004 00000000 		.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
- 748 0008 00000000 		.long	__ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
- 749              		.long	__ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
- 750              		.globl	__ZTSNSt6thread10_Impl_baseE
- 751              		.section	.rdata$_ZTSNSt6thread10_Impl_baseE,"dr"
- 752              		.linkonce same_size
- 753              		.align 4
- 754 0000 4E537436 	__ZTSNSt6thread10_Impl_baseE:
- 754      74687265 
- 754      61643130 
- 754      5F496D70 
- 754      6C5F6261 
- 755              		.ascii "NSt6thread10_Impl_baseE\0"
- 756              		.globl	__ZTINSt6thread10_Impl_baseE
- 757              		.section	.rdata$_ZTINSt6thread10_Impl_baseE,"dr"
- 758              		.linkonce same_size
- 759              		.align 4
- 760 0000 08000000 	__ZTINSt6thread10_Impl_baseE:
- 761 0004 00000000 		.long	__ZTVN10__cxxabiv117__class_type_infoE+8
- 762              		.long	__ZTSNSt6thread10_Impl_baseE
- 763              		.globl	__ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
- 764              		.section	.rdata$_ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE,"dr"
- 765              		.linkonce same_size
- 766              		.align 32
- 767 0000 4E537436 	__ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:
- 767      74687265 
- 767      6164355F 
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 20
+ 729      61736549 
+ 729      4C4E395F 
+ 730              		.ascii "St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE\0"
+ 731 002f 00000000 		.globl	__ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+ 731      00000000 
+ 731      00000000 
+ 731      00000000 
+ 731      00
+ 732              		.section	.rdata$_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE,"dr"
+ 733              		.linkonce same_size
+ 734              		.align 4
+ 735 0000 08000000 	__ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE:
+ 736 0004 00000000 		.long	__ZTVN10__cxxabiv117__class_type_infoE+8
+ 737              		.long	__ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+ 738              		.globl	__ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+ 739              		.section	.rdata$_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE,"dr"
+ 740              		.linkonce same_size
+ 741              		.align 32
+ 742 0000 53743136 	__ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE:
+ 742      5F53705F 
+ 742      636F756E 
+ 742      7465645F 
+ 742      62617365 
+ 743              		.ascii "St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE\0"
+ 744 0034 00000000 		.globl	__ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+ 744      00000000 
+ 744      00000000 
+ 745              		.section	.rdata$_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE,"dr"
+ 746              		.linkonce same_size
+ 747              		.align 4
+ 748 0000 08000000 	__ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE:
+ 749 0004 00000000 		.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
+ 750 0008 00000000 		.long	__ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+ 751              		.long	__ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+ 752              		.globl	__ZTSNSt6thread10_Impl_baseE
+ 753              		.section	.rdata$_ZTSNSt6thread10_Impl_baseE,"dr"
+ 754              		.linkonce same_size
+ 755              		.align 4
+ 756 0000 4E537436 	__ZTSNSt6thread10_Impl_baseE:
+ 756      74687265 
+ 756      61643130 
+ 756      5F496D70 
+ 756      6C5F6261 
+ 757              		.ascii "NSt6thread10_Impl_baseE\0"
+ 758              		.globl	__ZTINSt6thread10_Impl_baseE
+ 759              		.section	.rdata$_ZTINSt6thread10_Impl_baseE,"dr"
+ 760              		.linkonce same_size
+ 761              		.align 4
+ 762 0000 08000000 	__ZTINSt6thread10_Impl_baseE:
+ 763 0004 00000000 		.long	__ZTVN10__cxxabiv117__class_type_infoE+8
+ 764              		.long	__ZTSNSt6thread10_Impl_baseE
+ 765              		.globl	__ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
+ 766              		.section	.rdata$_ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE,"dr"
+ 767              		.linkonce same_size
+ 768              		.align 32
+ 769 0000 4E537436 	__ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:
+ 769      74687265 
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 20
 
 
- 767      496D706C 
- 767      49537431 
- 768              		.ascii "NSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE\0"
- 769 002e 00000000 		.globl	__ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
- 769      00000000 
- 769      00000000 
- 769      00000000 
- 769      0000
- 770              		.section	.rdata$_ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE,"dr"
- 771              		.linkonce same_size
- 772              		.align 4
- 773 0000 08000000 	__ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:
- 774 0004 00000000 		.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
- 775 0008 00000000 		.long	__ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
- 776              		.long	__ZTINSt6thread10_Impl_baseE
- 777              		.globl	__ZTSSt19_Sp_make_shared_tag
- 778              		.section	.rdata$_ZTSSt19_Sp_make_shared_tag,"dr"
- 779              		.linkonce same_size
- 780              		.align 4
- 781 0000 53743139 	__ZTSSt19_Sp_make_shared_tag:
- 781      5F53705F 
- 781      6D616B65 
- 781      5F736861 
- 781      7265645F 
- 782              		.ascii "St19_Sp_make_shared_tag\0"
- 783              		.globl	__ZTISt19_Sp_make_shared_tag
- 784              		.section	.rdata$_ZTISt19_Sp_make_shared_tag,"dr"
- 785              		.linkonce same_size
- 786              		.align 4
- 787 0000 08000000 	__ZTISt19_Sp_make_shared_tag:
- 788 0004 00000000 		.long	__ZTVN10__cxxabiv117__class_type_infoE+8
- 789              		.long	__ZTSSt19_Sp_make_shared_tag
- 790              		.globl	__ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__g
- 791              		.section	.rdata$_ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7
- 792              		.linkonce same_size
- 793              		.align 32
- 794 0000 53743233 	__ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12
- 794      5F53705F 
- 794      636F756E 
- 794      7465645F 
- 794      7074725F 
- 795              		.ascii "St23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_c
- 796 006f 00000000 		.globl	__ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__g
- 796      00000000 
- 796      00000000 
- 796      00000000 
- 796      00
- 797              		.section	.rdata$_ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7
- 798              		.linkonce same_size
- 799              		.align 4
- 800 0000 08000000 	__ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12
- 801 0004 00000000 		.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
- 802 0008 00000000 		.long	__ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gn
- 803              		.long	__ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
- 804              		.globl	__ZTVNSt6thread10_Impl_baseE
- 805              		.section	.rdata$_ZTVNSt6thread10_Impl_baseE,"dr"
- 806              		.linkonce same_size
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 21
+ 769      6164355F 
+ 769      496D706C 
+ 769      49537431 
+ 770              		.ascii "NSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE\0"
+ 771 002e 00000000 		.globl	__ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
+ 771      00000000 
+ 771      00000000 
+ 771      00000000 
+ 771      0000
+ 772              		.section	.rdata$_ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE,"dr"
+ 773              		.linkonce same_size
+ 774              		.align 4
+ 775 0000 08000000 	__ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:
+ 776 0004 00000000 		.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
+ 777 0008 00000000 		.long	__ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
+ 778              		.long	__ZTINSt6thread10_Impl_baseE
+ 779              		.globl	__ZTSSt19_Sp_make_shared_tag
+ 780              		.section	.rdata$_ZTSSt19_Sp_make_shared_tag,"dr"
+ 781              		.linkonce same_size
+ 782              		.align 4
+ 783 0000 53743139 	__ZTSSt19_Sp_make_shared_tag:
+ 783      5F53705F 
+ 783      6D616B65 
+ 783      5F736861 
+ 783      7265645F 
+ 784              		.ascii "St19_Sp_make_shared_tag\0"
+ 785              		.globl	__ZTISt19_Sp_make_shared_tag
+ 786              		.section	.rdata$_ZTISt19_Sp_make_shared_tag,"dr"
+ 787              		.linkonce same_size
+ 788              		.align 4
+ 789 0000 08000000 	__ZTISt19_Sp_make_shared_tag:
+ 790 0004 00000000 		.long	__ZTVN10__cxxabiv117__class_type_infoE+8
+ 791              		.long	__ZTSSt19_Sp_make_shared_tag
+ 792              		.globl	__ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__g
+ 793              		.section	.rdata$_ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7
+ 794              		.linkonce same_size
+ 795              		.align 32
+ 796 0000 53743233 	__ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12
+ 796      5F53705F 
+ 796      636F756E 
+ 796      7465645F 
+ 796      7074725F 
+ 797              		.ascii "St23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_c
+ 798 006f 00000000 		.globl	__ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__g
+ 798      00000000 
+ 798      00000000 
+ 798      00000000 
+ 798      00
+ 799              		.section	.rdata$_ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7
+ 800              		.linkonce same_size
+ 801              		.align 4
+ 802 0000 08000000 	__ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12
+ 803 0004 00000000 		.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
+ 804 0008 00000000 		.long	__ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gn
+ 805              		.long	__ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+ 806              		.globl	__ZTVNSt6thread10_Impl_baseE
+ 807              		.section	.rdata$_ZTVNSt6thread10_Impl_baseE,"dr"
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 21
 
 
- 807              		.align 4
- 808 0000 00000000 	__ZTVNSt6thread10_Impl_baseE:
- 809 0004 00000000 		.long	0
- 810 0008 00000000 		.long	__ZTINSt6thread10_Impl_baseE
- 811 000c 00000000 		.long	0
- 812 0010 00000000 		.long	0
- 813              		.long	___cxa_pure_virtual
- 814              		.globl	__ZTVNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
- 815              		.section	.rdata$_ZTVNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE,"dr"
- 816              		.linkonce same_size
- 817              		.align 4
- 818 0000 00000000 	__ZTVNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:
- 819 0004 00000000 		.long	0
- 820 0008 00000000 		.long	__ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
- 821 000c 00000000 		.long	__ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED1Ev
- 822 0010 00000000 		.long	__ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED0Ev
- 823              		.long	__ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEE6_M_runEv
- 824              		.globl	__ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__g
- 825              		.section	.rdata$_ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7
- 826              		.linkonce same_size
- 827              		.align 4
- 828 0000 00000000 	__ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12
- 829 0004 00000000 		.long	0
- 830 0008 00000000 		.long	__ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gn
- 831 000c 00000000 		.long	__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu
- 832 0010 00000000 		.long	__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu
- 833 0014 00000000 		.long	__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu
- 834 0018 00000000 		.long	__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu
- 835              		.long	__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu
- 836              		.data
- 837 0000 01       	__ZL14thread_running:
- 838              		.byte	1
- 839 0001 000000   	.lcomm __ZL7running,4,4
- 840              		.align 4
- 841 0004 0000803F 	__ZL5speed:
- 842              		.long	1065353216
- 843              	.lcomm __ZL4init,4,4
- 844              	.lcomm __ZL7pHandle,4,4
- 845              	.lcomm __ZL3pid,4,4
- 846              	.lcomm __ZL4hwnd,4,4
- 847              	.lcomm __ZStL8__ioinit,1,1
- 848              		.ident	"GCC: (tdm-1) 5.1.0"
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 22
+ 808              		.linkonce same_size
+ 809              		.align 4
+ 810 0000 00000000 	__ZTVNSt6thread10_Impl_baseE:
+ 811 0004 00000000 		.long	0
+ 812 0008 00000000 		.long	__ZTINSt6thread10_Impl_baseE
+ 813 000c 00000000 		.long	0
+ 814 0010 00000000 		.long	0
+ 815              		.long	___cxa_pure_virtual
+ 816              		.globl	__ZTVNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
+ 817              		.section	.rdata$_ZTVNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE,"dr"
+ 818              		.linkonce same_size
+ 819              		.align 4
+ 820 0000 00000000 	__ZTVNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:
+ 821 0004 00000000 		.long	0
+ 822 0008 00000000 		.long	__ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
+ 823 000c 00000000 		.long	__ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED1Ev
+ 824 0010 00000000 		.long	__ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED0Ev
+ 825              		.long	__ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEE6_M_runEv
+ 826              		.globl	__ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__g
+ 827              		.section	.rdata$_ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7
+ 828              		.linkonce same_size
+ 829              		.align 4
+ 830 0000 00000000 	__ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12
+ 831 0004 00000000 		.long	0
+ 832 0008 00000000 		.long	__ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gn
+ 833 000c 00000000 		.long	__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu
+ 834 0010 00000000 		.long	__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu
+ 835 0014 00000000 		.long	__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu
+ 836 0018 00000000 		.long	__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu
+ 837              		.long	__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu
+ 838              		.data
+ 839 0000 01       	__ZL14thread_running:
+ 840              		.byte	1
+ 841 0001 000000   	.lcomm __ZL7running,4,4
+ 842              		.align 4
+ 843 0004 0000803F 	__ZL5speed:
+ 844              		.long	1065353216
+ 845              	.lcomm __ZL4init,4,4
+ 846              	.lcomm __ZL7pHandle,4,4
+ 847              	.lcomm __ZL3pid,4,4
+ 848              	.lcomm __ZL4hwnd,4,4
+ 849              	.lcomm __ZStL8__ioinit,1,1
+ 850              		.ident	"GCC: (tdm-1) 5.1.0"
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 22
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.cpp
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:8      .text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EED1Ev:00000000 __ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:16     .text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv:00000000 __ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:27     .text$_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEE6_M_runEv:00000000 __ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEE6_M_runEv
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:35     .text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info:00000000 __ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:786    .rdata$_ZTISt19_Sp_make_shared_tag:00000000 __ZTISt19_Sp_make_shared_tag
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:56     .text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EED0Ev:00000000 __ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EED0Ev
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:68     .text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv:00000000 __ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:77     .text:00000000 ___tcf_0
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:845    .bss:00000014 __ZStL8__ioinit
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:86     .text$_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv:00000000 __ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:108    .text$_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED1Ev:00000000 __ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED1Ev
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:807    .rdata$_ZTVNSt6thread10_Impl_baseE:00000000 __ZTVNSt6thread10_Impl_baseE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:140    .text$_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED0Ev:00000000 __ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED0Ev
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:174    .text$printf:00000000 _printf
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:194    .text:00000010 __Z9get_inputv
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:836    .data:00000000 __ZL14thread_running
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:840    .data:00000004 __ZL5speed
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:261    .text$_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv:00000000 __ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:294    .text$_ZNSt6threadC1IRFvvEJEEEOT_DpOT0_:00000000 __ZNSt6threadC1IRFvvEJEEEOT_DpOT0_
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:827    .rdata$_ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:817    .rdata$_ZTVNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:00000000 __ZTVNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:294    .text$_ZNSt6threadC1IRFvvEJEEEOT_DpOT0_:00000000 .weak.__ZNSt6threadC1IRFvvEIEEEOT_DpOT0_.__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:437    .text.startup:00000000 _main
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:842    .bss:00000004 __ZL4init
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:845    .bss:00000010 __ZL4hwnd
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:844    .bss:0000000c __ZL3pid
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:843    .bss:00000008 __ZL7pHandle
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:838    .bss:00000000 __ZL7running
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:711    .text.startup:00000480 __GLOBAL__sub_I__Z9get_inputv
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:726    .rdata$_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:732    .rdata$_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:739    .rdata$_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:745    .rdata$_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:753    .rdata$_ZTSNSt6thread10_Impl_baseE:00000000 __ZTSNSt6thread10_Impl_baseE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:759    .rdata$_ZTINSt6thread10_Impl_baseE:00000000 __ZTINSt6thread10_Impl_baseE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:766    .rdata$_ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:00000000 __ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:772    .rdata$_ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:00000000 __ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:780    .rdata$_ZTSSt19_Sp_make_shared_tag:00000000 __ZTSSt19_Sp_make_shared_tag
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:793    .rdata$_ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE
-C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s:799    .rdata$_ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:8      .text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EED1Ev:00000000 __ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:16     .text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv:00000000 __ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:27     .text$_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEE6_M_runEv:00000000 __ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEE6_M_runEv
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:35     .text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info:00000000 __ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:788    .rdata$_ZTISt19_Sp_make_shared_tag:00000000 __ZTISt19_Sp_make_shared_tag
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:56     .text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EED0Ev:00000000 __ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EED0Ev
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:68     .text$_ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv:00000000 __ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:77     .text:00000000 ___tcf_0
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:847    .bss:00000014 __ZStL8__ioinit
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:86     .text$_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv:00000000 __ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:108    .text$_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED1Ev:00000000 __ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED1Ev
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:809    .rdata$_ZTVNSt6thread10_Impl_baseE:00000000 __ZTVNSt6thread10_Impl_baseE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:140    .text$_ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED0Ev:00000000 __ZNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEED0Ev
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:174    .text$printf:00000000 _printf
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:194    .text:00000010 __Z9get_inputv
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:838    .data:00000000 __ZL14thread_running
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:842    .data:00000004 __ZL5speed
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:261    .text$_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv:00000000 __ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:294    .text$_ZNSt6threadC1IRFvvEJEEEOT_DpOT0_:00000000 __ZNSt6threadC1IRFvvEJEEEOT_DpOT0_
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:829    .rdata$_ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTVSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:819    .rdata$_ZTVNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:00000000 __ZTVNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:294    .text$_ZNSt6threadC1IRFvvEJEEEOT_DpOT0_:00000000 .weak.__ZNSt6threadC1IRFvvEIEEEOT_DpOT0_.__ZNSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:437    .text.startup:00000000 _main
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:844    .bss:00000004 __ZL4init
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:847    .bss:00000010 __ZL4hwnd
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:846    .bss:0000000c __ZL3pid
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:845    .bss:00000008 __ZL7pHandle
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:840    .bss:00000000 __ZL7running
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:713    .text.startup:00000480 __GLOBAL__sub_I__Z9get_inputv
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:728    .rdata$_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:734    .rdata$_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:741    .rdata$_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:747    .rdata$_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:755    .rdata$_ZTSNSt6thread10_Impl_baseE:00000000 __ZTSNSt6thread10_Impl_baseE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:761    .rdata$_ZTINSt6thread10_Impl_baseE:00000000 __ZTINSt6thread10_Impl_baseE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:768    .rdata$_ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:00000000 __ZTSNSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:774    .rdata$_ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE:00000000 __ZTINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:782    .rdata$_ZTSSt19_Sp_make_shared_tag:00000000 __ZTSSt19_Sp_make_shared_tag
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:795    .rdata$_ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTSSt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE
+C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s:801    .rdata$_ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE:00000000 __ZTISt23_Sp_counted_ptr_inplaceINSt6thread5_ImplISt12_Bind_simpleIFPFvvEvEEEESaIS7_ELN9__gnu_cxx12_Lock_policyE2EE
 
 UNDEFINED SYMBOLS
 __imp___iob
@@ -1303,7 +1304,7 @@ __ZTVN10__cxxabiv120__si_class_type_infoE
 __ZNKSt9type_infoeqERKS_
 __ZdlPv
 __ZNSt8ios_base4InitD1Ev
-GAS LISTING C:\Users\Milos\AppData\Local\Temp\cc6CF65h.s 			page 23
+GAS LISTING C:\Users\Milos\AppData\Local\Temp\ccE83SWz.s 			page 23
 
 
 ___mingw_vprintf
@@ -1326,6 +1327,7 @@ _GetLastError@0
 _ReadProcessMemory@20
 _WriteProcessMemory@20
 _Sleep@4
+_CloseHandle@4
 _exit
 _pthread_equal
 __ZSt9terminatev

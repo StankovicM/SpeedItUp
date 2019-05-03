@@ -8,7 +8,7 @@
 using namespace std;
 
 static const char* WIN_NAME_GTA = "GTA: San Andreas";
-static const LPVOID ADDRESS = (LPVOID)0xB7CB64;
+static const LPVOID ADDRESS = (LPVOID)0x863984 ;
 
 static HWND		hwnd;
 static DWORD	pid;
@@ -16,7 +16,7 @@ static HANDLE	pHandle;
 
 static int init = 0;
 
-static float speed = 1.0;
+static float gravity = 0.08;
 
 static int running = 0;
 
@@ -26,11 +26,11 @@ void get_input()
 {
 	float input = 0;
 	while (thread_running) {
-		printf("Current speed multiplier is %.1f. Type in the new value to change the multiplier.\nMultiplier: ", speed);
+		printf("Current speed multiplier is %.1f. Type in the new value to change the multiplier.\nMultiplier: ", gravity);
 		cin.clear();
 		cin >> input;
 		if (!cin.fail()) {
-			speed = input;
+			gravity = input;
 		}
 		else {
 			printf("The multiplier must be a number. Please, try again.");
@@ -83,7 +83,7 @@ int main()
 		cin >> input;
 		if (!cin.fail()) {
 			init += 1;
-			speed = input;
+			gravity = input;
 			break;
 		}
 		else {
@@ -91,11 +91,13 @@ int main()
 			while (getchar() != '\n');
 		}
 	}
-	printf("Speed multiplier set to %.1f.\n", speed);
+	printf("Speed multiplier set to %.1f.\n", gravity);
 	printf("Starting the main loop.\n");
 	running = 1;
 
 	float val = 0;
+	ReadProcessMemory(pHandle, ADDRESS, &val, sizeof(val), 0);
+	cout << "Gravity: " << val << endl;
 	thread in_thread(get_input);
 	while (running) {
 		if (GetLastError())
@@ -103,15 +105,15 @@ int main()
 
 		ReadProcessMemory(pHandle, ADDRESS, &val, sizeof(val), 0);
 
-		if (val != speed)
-			WriteProcessMemory(pHandle, ADDRESS, &speed, sizeof(speed), 0);
+		if (val != gravity)
+			WriteProcessMemory(pHandle, ADDRESS, &gravity, sizeof(gravity), 0);
 
 		Sleep(500);
 	}
 
 	printf("\nGTA: San Andreas has been closed or an unexpected error has occured.\nPress ENTER to exit...\n");
+	cin.get();
 	thread_running = false;
-    CloseHandle(pHandle);
 
 	exit(0);
 }
