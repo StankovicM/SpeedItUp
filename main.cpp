@@ -13,6 +13,7 @@ static const LPVOID ADDRESS = (LPVOID)0xB7CB64;
 static HWND		hwnd;
 static DWORD	pid;
 static HANDLE	pHandle;
+static DWORD    exitCode;
 
 static int init = 0;
 
@@ -58,17 +59,13 @@ int main()
 	GetWindowThreadProcessId(hwnd, &pid);
 	if (pid <= 0) {
 		printf("Couldn't find the GTA: San Andreas process id.\n");
-		printf("Press ENTER to exit...\n");
-		cin.get();
-		return -1;
+		return 0;
 	}
 
 	pHandle = OpenProcess(0x38, FALSE, pid);
 	if (pHandle <= 0) {
 		printf("Couldn't access GTA: San Andreas process memory.\n");
-		printf("Press ENTER to exit...\n");
-		cin.get();
-		return -2;
+		return 0;
 	}
 
 	cout << "Window: " << hwnd << endl;
@@ -82,6 +79,13 @@ int main()
 		cin.clear();
 		cin >> input;
 		if (!cin.fail()) {
+            GetExitCodeProcess(pHandle, &exitCode);
+            if (exitCode != 259) {
+                printf("\nGTA: San Andreas has been closed.\n");
+                CloseHandle(pHandle);
+                return 0;
+            }
+
 			init += 1;
 			speed = input;
 			break;
@@ -98,20 +102,27 @@ int main()
 	float val = 0;
 	thread in_thread(get_input);
 	while (running) {
-		if (GetLastError())
+        GetExitCodeProcess(pHandle, &exitCode);
+        if (exitCode != 259) {
+            printf("\nGTA: San Andreas has been closed.\n");
+            break;
+        }
+
+		if (GetLastError()) {
+            printf("\nAn unexpected error has occured.\n");
 			break;
+		}
 
 		ReadProcessMemory(pHandle, ADDRESS, &val, sizeof(val), 0);
-
 		if (val != speed)
 			WriteProcessMemory(pHandle, ADDRESS, &speed, sizeof(speed), 0);
 
 		Sleep(500);
 	}
 
-	printf("\nGTA: San Andreas has been closed or an unexpected error has occured.\nPress ENTER to exit...\n");
 	thread_running = false;
+	in_thread.join();
     CloseHandle(pHandle);
 
-	exit(0);
+	return 0;
 }
