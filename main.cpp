@@ -7,8 +7,14 @@
 
 using namespace std;
 
-static const char* WIN_NAME_GTA = "GTA: San Andreas";
-static const LPVOID ADDRESS = (LPVOID)0xB7CB64;
+static const char* SA_WIN_NAME = "GTA: San Andreas";
+static const LPVOID SA_ADDRESS = (LPVOID)0xB7CB64;
+
+static const char* VC_WIN_NAME = "GTA: Vice City";
+static const LPVOID VC_ADDRESS = (LPVOID)0x97F264;
+
+static char WIN_NAME[20];
+static LPVOID ADDRESS;
 
 static HWND		hwnd;
 static DWORD	pid;
@@ -25,32 +31,68 @@ static bool thread_running = true;
 
 void get_input()
 {
-	float input = 0;
+    char buffer[3];
+    float buffer_val = 1.0;
+    char* endptr;
 	while (thread_running) {
-		printf("Current speed multiplier is %.1f. Type in the new value to change the multiplier.\nMultiplier: ", speed);
-		cin.clear();
-		cin >> input;
-		if (!cin.fail()) {
-			speed = input;
-		}
-		else {
-			printf("The multiplier must be a number. Please, try again.");
-			while (getchar() != '\n');
-		}
-		this_thread::sleep_for(std::chrono::milliseconds(200));
+		printf("Current speed multiplier is %.1f. Type in the new value to change it.\nMultiplier: ", speed);
+        fflush(stdin);
+        fgets(buffer, 3, stdin);
+
+        if (thread_running == 0) {
+            break;
+        }
+
+        buffer_val = strtof(buffer, &endptr);
+        if (buffer_val == 0 && buffer == endptr) {
+            printf("The multiplier must be a number. Please, try again.\n");
+        } else {
+            speed = buffer_val;
+        }
 	}
+
+	return;
 }
 
 int main()
 {
+    char buffer[3];
+    while (init == 0) {
+        printf("Select a game (sa, vc): ");
+        fflush(stdin);
+        fgets(buffer, 3, stdin);
+        char c1 = buffer[0];
+        char c2 = buffer[1];
+        if ((c1 == 's' || c1 == 'S') && (c2 == 'a' || c2 == 'A')) {
+            strcpy(WIN_NAME, SA_WIN_NAME);
+            WIN_NAME[strlen(SA_WIN_NAME)] = '\0';
+            ADDRESS = SA_ADDRESS;
+            init += 1;
+        }
+
+        if ((c1 == 'v' || c1 == 'V') && (c2 == 'c' || c2 == 'C')) {
+            strcpy(WIN_NAME, VC_WIN_NAME);
+            WIN_NAME[strlen(VC_WIN_NAME)] = '\0';
+            ADDRESS = VC_ADDRESS;
+            init += 1;
+        }
+
+        if (init == 0) {
+            printf("Error, could not recognize %s. Please try again.\n", buffer);
+        }
+
+        while (getchar() != '\n');
+    }
+    printf("Selected game: %s\n", WIN_NAME);
+
 	printf("Initializing...\n");
-	while (init == 0) {
-		hwnd = FindWindow(NULL, WIN_NAME_GTA);
+	while (init == 1) {
+		hwnd = FindWindow(NULL, WIN_NAME);
 		if (hwnd > 0) {
 			init += 1;
 		}
 		else {
-			printf("Could not initalize the program, make sure GTA: San Andreas is running.\n");
+			printf("Could not initalize the program, make sure %s is running.\n", WIN_NAME);
 			printf("Press ENTER to retry...\n");
 			cin.get();
 		}
@@ -58,13 +100,13 @@ int main()
 
 	GetWindowThreadProcessId(hwnd, &pid);
 	if (pid <= 0) {
-		printf("Couldn't find the GTA: San Andreas process id.\n");
+		printf("Couldn't find the %s process id.\n", WIN_NAME);
 		return 0;
 	}
 
 	pHandle = OpenProcess(0x38, FALSE, pid);
 	if (pHandle <= 0) {
-		printf("Couldn't access GTA: San Andreas process memory.\n");
+		printf("Couldn't access %s process memory.\n", WIN_NAME);
 		return 0;
 	}
 
@@ -74,26 +116,26 @@ int main()
 	printf("Initialization complete.\n");
 
 	printf("Type in the speed multiplier. Default is 1.0.\nMultiplier: ");
-	float input = 1.0;
-	while (init == 1) {
-		cin.clear();
-		cin >> input;
-		if (!cin.fail()) {
-            GetExitCodeProcess(pHandle, &exitCode);
-            if (exitCode != 259) {
-                printf("\nGTA: San Andreas has been closed.\n");
-                CloseHandle(pHandle);
-                return 0;
-            }
+	float buffer_val = 1.0;
+	char* endptr;
+	while (init == 2) {
+		fflush(stdin);
+		fgets(buffer, 3, stdin);
 
-			init += 1;
-			speed = input;
-			break;
-		}
-		else {
-			printf("The multiplier must be a number. Please, try again.\nMultiplier: ");
-			while (getchar() != '\n');
-		}
+        GetExitCodeProcess(pHandle, &exitCode);
+        if (exitCode != 259) {
+            printf("\n%s has been closed.\n", WIN_NAME);
+            CloseHandle(pHandle);
+            return 0;
+        }
+
+        buffer_val = strtof(buffer, &endptr);
+        if (buffer_val == 0 && buffer == endptr) {
+            printf("The multiplier must be a number. Please, try again.\nMultiplier: ");
+        } else {
+            speed = buffer_val;
+            init += 1;
+        }
 	}
 	printf("Speed multiplier set to %.1f.\n", speed);
 	printf("Starting the main loop.\n");
@@ -104,12 +146,14 @@ int main()
 	while (running) {
         GetExitCodeProcess(pHandle, &exitCode);
         if (exitCode != 259) {
-            printf("\nGTA: San Andreas has been closed.\n");
+            printf("\n%s has been closed.\n", WIN_NAME);
+            running = false;
             break;
         }
 
 		if (GetLastError()) {
             printf("\nAn unexpected error has occured.\n");
+			running = false;
 			break;
 		}
 
@@ -121,6 +165,7 @@ int main()
 	}
 
 	thread_running = false;
+	printf("Press ENTER to exit...\n");
 	in_thread.join();
     CloseHandle(pHandle);
 
